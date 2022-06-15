@@ -7,12 +7,15 @@ function InicialPage() {
       <Header />
       <div className="mainDivInicialPage">
         <div className="divIntroducao">
-          <h4 className="p-ola">
-            Olá, meu nome é
-          </h4>
-          <h1>
+          <div className="typingdiv">
+            <h4 className="h4-ola">
+              Olá, meu nome é
+            </h4>
+          </div>
+          <h1 className="h1Name">
             JACKSON VIANA
-            <br />
+          </h1>
+          <h1 className="h1Name">
             FRONT-END DEVELOPER
           </h1>
         </div>
