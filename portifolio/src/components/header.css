@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  display: grid;
+  grid: 'img nav-bar1 nav-bar2 nav-bar3 nav-bar4'
+  / 1fr 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+
+.nav1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  grid-area: nav-bar1;
+}
+
+.nav2 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  grid-area: nav-bar2;
+}
+.nav3 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  grid-area: nav-bar3;
+}
+
+.nav4 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  grid-area: nav-bar4;
+}
