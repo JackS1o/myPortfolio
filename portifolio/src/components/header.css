@@ -1,12 +1,19 @@
-body {
+* {
+  text-decoration: none;
+  color: white;
+}
+
+/* body {
   margin: 0;
   background-color: black;
-}
+  overflow: hidden;
+} */
 
 .header {
   display: grid;
   grid: 'img nav-bar1 nav-bar2 nav-bar3 nav-bar4'
   / 1fr 0.25fr 0.25fr 0.25fr 0.25fr;
+  background-color: black;
 }
 
 .nav1 {
@@ -34,4 +41,11 @@ body {
   color: white;
   justify-content: center;
   grid-area: nav-bar4;
+}
+
+.nav1, .nav2, .nav3, .nav4 {
+	color: white;
+	opacity: 0;
+	transform: translateY(3rem);
+	animation: fadeInUp 2s ease 1s forwards;
 }

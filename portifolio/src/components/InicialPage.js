@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./Header";
+import HeaderInicialPage from "./HeaderInicialPage";
 
 function InicialPage() {
   return (
     <section>
-      <Header />
+      <HeaderInicialPage />
       <div className="mainDivInicialPage">
         <div className="divIntroducao">
           <div className="typingdiv">
