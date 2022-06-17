@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.body .carrousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 280px;
+}
+
+.body .carrousel .item {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 280px;
+}
+
+.body .carrousel .item .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body .buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.body .buttons button {
+  cursor: pointer;
+}
+
+

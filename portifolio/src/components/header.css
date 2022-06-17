@@ -1,13 +1,12 @@
 * {
   text-decoration: none;
   color: white;
+  box-sizing: border-box;
 }
 
-/* body {
+body {
   margin: 0;
-  background-color: black;
-  overflow: hidden;
-} */
+}
 
 .header {
   display: grid;

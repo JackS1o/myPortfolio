@@ -5,6 +5,7 @@ import './components/header.css';
 import './components/inicialPage.css';
 import './components/headerInicialPage.css';
 import './components/projects.css';
+import './components/about.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';

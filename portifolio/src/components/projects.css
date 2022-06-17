@@ -8,6 +8,11 @@
   background-color: black;
 }
 
+.section {
+  /* display: flex; */
+  background-color: black;
+}
+
 .container {
   position: relative;
   display: flex;
