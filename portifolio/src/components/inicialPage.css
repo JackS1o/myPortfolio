@@ -17,6 +17,8 @@ body {
 	background-color: black;
 }
 
+/* #AAABAB */
+
 .divIntroducao {
 	display: grid;
 	place-items: center;
@@ -67,7 +69,13 @@ body {
 }
 
 .h1Name,.divImg {
-	color: white;
+	background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	font-family: 'Source Code Pro', monospace;
 	opacity: 0;
 	transform: translateY(3rem);
 	animation: fadeInUp 2s ease 4.9s forwards;

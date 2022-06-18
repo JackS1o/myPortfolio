@@ -10,9 +10,19 @@ body {
 
 .header {
   display: grid;
-  grid: 'img nav-bar1 nav-bar2 nav-bar3 nav-bar4'
+  place-items: center;
+  grid: 'img1 nav-bar1 nav-bar2 nav-bar3 nav-bar4'
   / 1fr 0.25fr 0.25fr 0.25fr 0.25fr;
   background-color: black;
+  height: 80px;
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  grid-area: img1;
+	height: 50px;
+	width: 100px;
 }
 
 .nav1 {
@@ -42,7 +52,7 @@ body {
   grid-area: nav-bar4;
 }
 
-.nav1, .nav2, .nav3, .nav4 {
+.logo1 , .nav1, .nav2, .nav3, .nav4 {
 	color: white;
 	opacity: 0;
 	transform: translateY(3rem);
