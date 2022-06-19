@@ -3,6 +3,8 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "../style.css";
+import wallet from "../images/walletProject.png";
+import onlinestore from "../images/onlinestore.png";
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -13,41 +15,46 @@ const breakPoints = [
 
 function Projects() {
 	const items = [(
-		<div className="body">
-			<div className="container">
-				<div className="card">
-					<div className="face face1">
+		<a rel='noopener noreferrer' href="https://wallet-project-rho.vercel.app/" target="_blank" >
+			<div className="body">
+				<div className="container">
+					<div className="card">
+						<div className="face face1">
+							<div className="elements">
+								<img className="img" src="https://static.wixstatic.com/media/071ee2_4d02eb79427e42568bd1e72538dfd50b~mv2.png/v1/fill/w_853,h_801,al_c/071ee2_4d02eb79427e42568bd1e72538dfd50b~mv2.png" alt="" />
+								<h3 className="projectName">Wallet</h3>
+							</div>
+						</div>
+					</div>
+					<div className="face face2">
 						<div className="elements">
-							<img className="img" src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/12/naruto-1200x900-2.jpg" alt="" />
-							<h3 className="projectName">Nome do projeto</h3>
+							<p className="description">Aplicação feita para controlar os gastos do usuário em diversas moedas. O valor é convertido para BRL e também é possível editar algum gasto depois de inserido na tabela.</p>
+							<p className="description">Clique e veja a aplicação.</p>
 						</div>
 					</div>
 				</div>
-				<div className="face face2">
-					<div className="elements">
-						<p className="description">Lorem Ipsum is simply dummy text of the printing and </p>
-					</div>
-				</div>
 			</div>
-		</div>
+		</a>
 	), (
-		<div className="body">
-			<div className="container">
-				<div className="card">
-					<div className="face face1">
+		<a rel='noopener noreferrer' href="https://online-store-coral.vercel.app/" target="_blank">
+			<div className="body">
+				<div className="container">
+					<div className="card">
+						<div className="face face1">
+							<div className="elements">
+								<img className="img" src="https://www.xion.global/wp-content/uploads/2020/08/Asset-3Page-Icon-1.png" alt="" />
+								<h3 className="projectName">Online Store</h3>
+							</div>
+						</div>
+					</div>
+					<div className="face face2">
 						<div className="elements">
-							<img className="img" src="https://sm.ign.com/ign_br/screenshot/default/naruto-shippuden_f134.png" alt="" />
-							<h3 className="projectName">Nome do projeto</h3>
+							<p className="description">Lorem Ipsum is simply dummy text of the printing and </p>
 						</div>
 					</div>
 				</div>
-				<div className="face face2">
-					<div className="elements">
-						<p className="description">Lorem Ipsum is simply dummy text of the printing and </p>
-					</div>
-				</div>
 			</div>
-		</div>
+		</a>
 	), (
 		<div className="body">
 			<div className="container">
@@ -99,7 +106,8 @@ function Projects() {
 	return (
 		<><div>
 			<Header />
-		</div><div className="App">
+		</div>
+			<div className="App">
 				{/* <div className="controls-wrapper">
       <button onClick={removeItem}>Remove Item</button>
       <button onClick={addItem}>Add Item</button>

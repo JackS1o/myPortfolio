@@ -13,10 +13,10 @@ function InicialPage() {
             </h4>
           </div>
           <h1 className="h1Name">
-            JACKSON VIANA
+            Jackson Viana
           </h1>
-          <h1 className="h1Name">
-            FRONT-END DEVELOPER
+          <h1 className="h12Name">
+            Front-End Developer
           </h1>
         </div>
         <div className="divImg">
