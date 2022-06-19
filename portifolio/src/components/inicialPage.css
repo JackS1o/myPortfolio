@@ -28,7 +28,7 @@ body {
 }
 
 .h4-ola {
-	color: rgb(47, 136, 47);
+	color: rgb(50, 133, 39);
 	position: relative;
 	font-family: 'Source Code Pro', monospace;
 	width: max-content;
@@ -57,7 +57,7 @@ body {
 
 .h4-ola::after {
 	width: 0.125em;
-	background: rgb(47, 136, 47);
+	background: white;
 	animation: typewriter 3.5s steps(15) 1s forwards,
 	typeblink 750ms steps(15) infinite;
 }
@@ -68,12 +68,13 @@ body {
 	}
 }
 
-.h1Name,.divImg {
-	background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
+.h1Name {
+	/* background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
 
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
+	color: white;
 
 	font-family: 'Source Code Pro', monospace;
 	opacity: 0;
@@ -81,9 +82,27 @@ body {
 	animation: fadeInUp 2s ease 4.9s forwards;
 }
 
-.h1Name, .divImg {
+.divImg, .h12Name {
+	background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(170,171,171,1) 35%, rgba(0,212,255,1) 100%);
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	font-family: 'Ubuntu', sans-serif;;
+	opacity: 0;
+	transform: translateY(3rem);
+	animation: fadeInUp 2s ease 5.5s forwards;
+}
+
+.h1Name {
 	-webkit-animation: 1s text-focus-in 4.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: 1s text-focus-in 4.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.h12Name, .divImg {
+	-webkit-animation: 1s text-focus-in 5.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: 1s text-focus-in 5.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 @keyframes fadeInUp {

@@ -56,12 +56,13 @@
 	color: white;
 	opacity: 0;
 	transform: translateY(3rem);
-	animation: fadeInUp 2s ease 4.9s forwards;
+	animation: fadeInUp 2s ease 5.5s forwards;
+  cursor: pointer;
 }
 
 .logo, .nav1InicialPage, .nav2InicialPage, .nav3InicialPage, .nav4InicialPage  {
-	-webkit-animation: 1s text-focus-in 4.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: 1s text-focus-in 4.9s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: 1s text-focus-in 5.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: 1s text-focus-in 5.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 @keyframes fadeInUp {
