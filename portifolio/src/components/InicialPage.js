@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderInicialPage from "./HeaderInicialPage";
+import eu from "../images/eu.png";
 
 function InicialPage() {
   return (
@@ -20,7 +21,7 @@ function InicialPage() {
           </h1>
         </div>
         <div className="divImg">
-          img
+          <img className="eu" src={eu} alt="eu" />
         </div>
       </div>
     </section>

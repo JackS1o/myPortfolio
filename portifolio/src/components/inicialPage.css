@@ -105,6 +105,10 @@ body {
 	        animation: 1s text-focus-in 5.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+.eu {
+	height: 400px;
+}
+
 @keyframes fadeInUp {
 	to {
 		opacity: 1;

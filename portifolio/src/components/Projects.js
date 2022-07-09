@@ -3,8 +3,8 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import "../style.css";
-import wallet from "../images/walletProject.png";
-import onlinestore from "../images/onlinestore.png";
+import wallet from "../images/wallet.png";
+import trivia from "../images/trivia.png";
 
 const breakPoints = [
 	{ width: 1, itemsToShow: 1 },
@@ -21,7 +21,7 @@ function Projects() {
 					<div className="card">
 						<div className="face face1">
 							<div className="elements">
-								<img className="img" src="https://static.wixstatic.com/media/071ee2_4d02eb79427e42568bd1e72538dfd50b~mv2.png/v1/fill/w_853,h_801,al_c/071ee2_4d02eb79427e42568bd1e72538dfd50b~mv2.png" alt="" />
+								<img className="img" src={ wallet } alt="" />
 								<h3 className="projectName">Wallet</h3>
 							</div>
 						</div>
@@ -56,12 +56,13 @@ function Projects() {
 			</div>
 		</a>
 	), (
+		<a rel='noopener noreferrer' href="https://trivia-jacks1o.vercel.app/" target="_blank">
 		<div className="body">
 			<div className="container">
 				<div className="card">
 					<div className="face face1">
 						<div className="elements">
-							<img className="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTT9KRxd4crd4PZNImSYnpA4zkPS770N7dYw&usqp=CAU" alt="" />
+							<img className="img" src={ trivia } alt="" />
 							<h3 className="projectName">Nome do projeto</h3>
 						</div>
 					</div>
@@ -73,6 +74,7 @@ function Projects() {
 				</div>
 			</div>
 		</div>
+		</a>
 	), (
 		<div className="body">
 			<div className="container">
