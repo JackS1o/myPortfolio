@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderInicialPage from "./HeaderInicialPage";
-import eu from "../images/eu.png";
+import eu from "../images/eu5.png";
 
 function InicialPage() {
   return (
